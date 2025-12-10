@@ -202,7 +202,7 @@ nav img{
     color: rgb(57, 117, 137);
 }
 
-.discription .bold{
+.bold{
     font-weight: bold;
 }
 
@@ -277,9 +277,14 @@ aside{
     border: 1px solid rgb(214, 217, 217);
     margin-right: 10px;
     border-radius: 12px;
+    gap: 10px
 }
 
 aside a{
     text-decoration: none;
     color: rgb(57, 117, 137);
+}
+
+aside img{
+    width: 10px;
 }
