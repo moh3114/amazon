@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+header, nav{
+    display: flex;
+    padding: 15px 10px 10px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(23, 60, 51);
+}
+
+header img, nav img{
+    width: 20px;
+    align-self: center;
+    filter: brightness(0) invert(1); /*make image white color*/
+}
+
+.logo img{
+    width: 100px;
+    align-self: center;
+}
+
+.us-flag{
+    filter: none;
+}
+
+search{
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+}
+
+search input{
+    width: 100%;
+    padding: 0 10px;
+}
+
+header a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    text-decoration: none;
+    color: white;
+    gap: 5px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.catagory{
+    background-color: rgb(239, 239, 239);
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px 0 0 5px;
+}
+
+.catagory img{
+    filter: none;
+}
+
+.search-btn{
+    background-color: rgb(155, 40, 109);
+    border: 1px solid rgb(155, 40, 109);
+    border-radius: 0 5px 5px 0;
+    padding: 0 10px;
+}
+
+input{
+    border: none;
+}
+
+a span{
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgb(37,86,74);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+nav img{
+    padding: 0;
+    margin-top: -2px;
+}
+
+ nav a{
+    display: flex;
+    line-height: 16px;
+    padding: 5px;
+    gap: 5px;
+    padding: 0 5px;
+    text-decoration: none;
+    color: white;
+ }
+
+.ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-bottom: 1px solid black;
+}
+
+.ad img{
+    max-width: 400px;
+}
+
+.ad a{
+    text-decoration: none;
+    color: rgb(57, 117, 137);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slave-nav{
+    background-color: transparent;
+}
+
+.slave-nav ol{
+    display: flex;
+    list-style: none;
+    justify-content: baseline;
+}
+
+.slave-nav a{
+    color: black;
+}
+
+.product{
+    display: flex;
+    width: 100%;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: column;
+    max-width: 40px;
+    margin: 10px;
+}
+
+.pictures ul{
+    list-style: none;
+}
+
+.pictures img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+.main-picture{
+    max-width: 460px;
+}
+
+.main-picture img{
+    width: 100%;
+}
+
+.main-picture figcaption{
+    text-align: center;
+    margin: 5px;
+}
+
+.discription{
+    margin: 10px;
+}
+
+.discription article > *{
+    margin: 5px;
+}
+
+.checked {
+  color: orange;
+}
+
+.down-arrow{
+    width: 10px;
+}
+
+.discription a{
+    text-decoration: none;
+    color: rgb(57, 117, 137);
+}
+
+.discription .bold{
+    font-weight: bold;
+}
+
+.discription-lst{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.red{
+    color: #CC0C39!important;
+    font-size: 24px;
+}
+
+.price{
+    font-size: 28px;
+}
+
+.currency{
+    font-size: 13px;
+    position: relative;
+    top: -0.75em;
+}
+
+.info{
+    width: 13px;
+}
+
+.options{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 98px;
+    height: 72px;
+    border-radius: 10px;
+    padding: 2px;
+    text-align: start;
+    overflow: hidden;
+}
+
+.active{
+    border: 3px solid rgb(52, 97, 156);
+}
+
+.active .bold{
+    background-color: rgb(239,248,254);
+    padding: 6px 8px;
+    border-bottom: 1px solid rgb(214,217,217);
+    width: 100%;
+}
+
+.old{
+    text-decoration: line-through;
+}
+
+td{
+    padding: 3px;
+}
+
+.product-price-and-detaild{
+    border-bottom: 1px solid black;
+}
+
+ul{
+    padding-left: 10px;
+}
+
+aside{
+    padding: 14px 18px;
+    min-width: 242px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(214, 217, 217);
+    margin-right: 10px;
+    border-radius: 12px;
+}
+
+aside a{
+    text-decoration: none;
+    color: rgb(57, 117, 137);
+}
